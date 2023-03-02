@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.DeleteMapping
 import java.util.HashMap
 
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v1")
 class UserController {
     @Autowired
     private val userRepository: UserRepository? = null
